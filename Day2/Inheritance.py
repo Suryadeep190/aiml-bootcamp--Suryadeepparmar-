@@ -34,3 +34,9 @@ teacher1=teacher("krinal","Mbbs")
 print(student1.greet())
 print(teacher1.greet())
 print(f"Teacher:{teacher1.name} teaches {teacher1.subject}")
+
+
+"""
+In this task code the student and teacher role might chang with time for that reason Composition may suit better here
+and even if we change something in parent class it affect subclasses as it relies on parent class 
+"""
