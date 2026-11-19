@@ -1,0 +1,13 @@
+Python is a powerful programming language. Python is used
+for data analysis, automation, artificial intelligence,
+and web development.
+
+Data analysis helps businesses understand their data.
+Python makes data analysis easier because it provides
+powerful libraries. Libraries like pandas and numpy
+help developers work with large datasets.
+
+Programming is not just about writing code. It is about
+solving problems, understanding patterns, and building
+useful applications. Python makes programming easier
+for beginners and professionals.
