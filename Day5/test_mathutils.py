@@ -1,7 +1,7 @@
 from mathutils import average, biggest, is_prime
 
-
 # Average tests
+
 
 def test_average_basic():
     assert average([2, 4, 6]) == 4.0
@@ -13,6 +13,7 @@ def test_average_empty():
 
 # Biggest tests
 
+
 def test_biggest_basic():
     assert biggest([10, 50, 20]) == 50
 
@@ -22,6 +23,7 @@ def test_biggest_empty():
 
 
 # Prime number tests
+
 
 def test_is_prime_two():
     assert is_prime(2) is True
