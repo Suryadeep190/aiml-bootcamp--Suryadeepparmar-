@@ -1,4 +1,18 @@
+"""
+Provide utility functions for basic mathematical operations.
+"""
+
+
 def average(nums):
+    """
+    Return the average of a list of numbers.
+
+    Args:
+        nums: A list of numbers. May be empty.
+
+    Returns:
+        The average as a float, or 0.0 if the list is empty.
+    """
     if not nums:
         return 0.0
 
@@ -6,6 +20,15 @@ def average(nums):
 
 
 def biggest(nums):
+    """
+    Return the largest number from a list.
+
+    Args:
+        nums: A list of integers. May be empty.
+
+    Returns:
+        The largest integer, or None if the list is empty.
+    """
     if not nums:
         return None
 
@@ -13,6 +36,16 @@ def biggest(nums):
 
 
 def is_prime(n):
+    """
+    Return whether a number is prime.
+
+    Args:
+        n: An integer to check.
+
+    Returns:
+        True if the number is prime, otherwise False.
+        Numbers less than 2 are not prime.
+    """
     if n < 2:
         return False
 
