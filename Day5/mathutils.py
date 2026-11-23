@@ -2,8 +2,10 @@
 Provide utility functions for basic mathematical operations.
 """
 
+from typing import Optional
 
-def average(nums):
+
+def average(nums: list[int]) -> float:
     """
     Return the average of a list of numbers.
 
@@ -19,7 +21,7 @@ def average(nums):
     return sum(nums) / len(nums)
 
 
-def biggest(nums):
+def biggest(nums: list[int]) -> Optional[int]:
     """
     Return the largest number from a list.
 
@@ -35,7 +37,7 @@ def biggest(nums):
     return max(nums)
 
 
-def is_prime(n):
+def is_prime(n: int) -> bool:
     """
     Return whether a number is prime.
 
