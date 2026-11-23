@@ -17,6 +17,7 @@ repos:
 
       - id: mypy
         name: Mypy Type Checker
-        entry: mypy Day5/mathutils.py Day5/functional_utils.py     
-        language: system
+        entry: mypy Day5/mathutils.py Day5/functional_utils.py
+        language: python
+        additional_dependencies: [mypy]
         pass_filenames: false

@@ -5,3 +5,4 @@ __pycache__/
 .ipynb_checkpoints/
 .env
 Day3/application.log
+.pre-commit-config.yaml
