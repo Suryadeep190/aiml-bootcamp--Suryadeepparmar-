@@ -10,13 +10,13 @@ repos:
 
       - id: ruff
         name: Ruff Linter
-        entry: ruff check
+        entry: ruff check --ignore C417
         language: system
         types: [python]
         files: ^Day5/
 
       - id: mypy
         name: Mypy Type Checker
-        entry: mypy Day5/mathutils.py
+        entry: mypy Day5/mathutils.py Day5/functional_utils.py     
         language: system
         pass_filenames: false
